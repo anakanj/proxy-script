@@ -11,7 +11,7 @@ function FindProxyForURL(url, host) {
     if (url.substring(0, 4) == "ftp:")
         return "DIRECT";
 
-    return PROXY_URL;
+    return "DIRECT";
 }
 
 function isNetflixLoginWebAPI(url) {
