@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-	var PROXY_URL = "147.185.221.21:20490; DIRECT"	
+	var PROXY_URL = "PROXY 147.185.221.21:20490"	
 	if (isStreamFabEndpoint(url)) 
 		return PROXY_URL;
 	
